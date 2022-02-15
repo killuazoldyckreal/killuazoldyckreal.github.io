@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @killuazoldyckreal
+- I love developing AI💻
+- Currently focusing on my career but will soon start developing⏳
+- If anyone expert in AI Bot developing can collab with me🤝
+- Mail: killuazodyckreal1987@gmail.com 📧
