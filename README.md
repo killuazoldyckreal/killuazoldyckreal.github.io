@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @killuazoldyckreal
-- I love developing AI💻
-- Currently focusing on my career but will soon start developing⏳
-- If anyone expert in AI Bot developing can collab with me🤝
+- I love developing in HTLM, CSS, SQL and python 🐍
+- Currently focusing on my career but will soon start developing ⏳
+- Check out my project and express your views to me via email 💖
 - Mail: killuazodyckreal1987@gmail.com 📧
