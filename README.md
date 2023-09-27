@@ -8,8 +8,8 @@
 - 🚀 My main focus is on my career right now.
 - 🌟 Maybe someday you'll find some awesome projects in my repositories!
 
-Feel free to connect with me and explore my journey into the world of coding!
-- Mail: killuazodyckreal1987@gmail.com 📧
+Feel free to connect with me and explore my journey into the world of coding
+- [Mail](mailto:killuazodyckreal1987@gmail.com)
 
 ### Github stats
 ----------------
