@@ -1,8 +1,14 @@
 # Intoduction
 - 👋 Hi, I’m @killuazoldyckreal
-- I love developing in HTML, CSS, SQL and python 🐍
-- Currently focusing on my career but will soon start developing ⏳
-- Check out my project and express your views to me via email 💖
+
+## About Me
+- 👨‍💻 Programming is my hobby.
+- 🌐 Self-taught in Python, HTML, CSS, and a bit of JavaScript.
+- 📚 Learning online has been my path.
+- 🚀 My main focus is on my career right now.
+- 🌟 Maybe someday you'll find some awesome projects in my repositories!
+
+Feel free to connect with me and explore my journey into the world of coding!
 - Mail: killuazodyckreal1987@gmail.com 📧
 
 ### Github stats
