@@ -47,7 +47,8 @@
     font-weight: 300;
     font-size: 30px;
     min-height: 100vh;
-    letter-spacing: 10px;
+    letter-spacing: 4px;
+    word-spacing: 4px;
     padding-left: 10px;
     top: -200px;
     position: relative;
