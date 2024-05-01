@@ -12,8 +12,13 @@
     overflow: hidden;
   }
   
+  #title-title {
+    margin-bottom: 15px;
+  }
+  
   #title-tag {
     font-size: 40px;
+    margin-top: 15px;
   }
   
   #title span {
