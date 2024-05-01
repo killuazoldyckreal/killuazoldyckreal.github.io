@@ -39,6 +39,7 @@ html {
     }
     
   #topbar {
+    position: absolute;
     background: radial-gradient(ellipse at bottom, #090a0f 0%, #1b2735 100%);
     font-family: "lato", sans-serif;
     color: #fff;
@@ -47,6 +48,8 @@ html {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+    width: 100%;
+    z-index: 999;
   }
   
   .section.section4 {
