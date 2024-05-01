@@ -41,6 +41,7 @@
       }
       
     #topbar {
+      position: absolute;
       background: radial-gradient(ellipse at bottom, #090a0f 0%, #1b2735 100%);
       font-family: "lato", sans-serif;
       color: #fff;
@@ -49,22 +50,21 @@
       align-items: center;
       justify-content: space-between;
       padding: 10px;
+      width: 100%;
+      z-index: 999;
     }
     #title {
-      position: initial;
-      top: 50%;
-      left: 0;
-      right: 0;
       color: #FFF;
       text-align: center;
       font-family: "lato", sans-serif;
-      font-weight: 300;
+      font-weight: initial;
       font-size: 40px;
-      min-height: 100vh;
+      height: 100vh;
       letter-spacing: 10px;
-      margin-top: -60px;
-      margin-bottom: 60px;
-      padding-left: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
     }
     #title-tag {
       font-size: 20px;
@@ -82,7 +82,7 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      min-height: 100vh;
+      height: 100vh;
       padding: 20px;
       color: #fff;
       overflow-y: auto;
@@ -92,16 +92,11 @@
     .section2,
     .section3,
     .section4 {
-      color: #FFF;
       text-align: center;
-      font-family: "lato", sans-serif;
       font-weight: 300;
       font-size: 20px;
-      min-height: 100vh;
-      letter-spacing: 10px;
-      padding-left: 10px;
-      top: -200px;
-      position: relative;
+      letter-spacing: 4px;
+      word-spacing: 4px;
     }
     
     .section1 p,
