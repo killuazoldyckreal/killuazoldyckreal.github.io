@@ -53,6 +53,7 @@
       width: 100%;
       z-index: 999;
     }
+    
     #title {
       color: #FFF;
       text-align: center;
@@ -66,8 +67,14 @@
       align-items: center;
       overflow: hidden;
     }
+
+    #title-title {
+      margin-bottom: 15px;
+    }
+    
     #title-tag {
       font-size: 20px;
+      margin-top: 15px;
     }
     
     #title span {
