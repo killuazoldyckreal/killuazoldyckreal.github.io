@@ -28,7 +28,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100vh;
     padding: 20px;
     color: #fff;
     overflow-y: auto;
@@ -38,15 +38,11 @@
   .section2,
   .section3,
   .section4 {
-    color: #FFF;
     text-align: center;
-    font-family: "lato", sans-serif;
     font-weight: 300;
     font-size: 30px;
-    min-height: 100vh;
     letter-spacing: 4px;
     word-spacing: 4px;
-    padding-left: 10px;
   }
   
   .section1 p,
