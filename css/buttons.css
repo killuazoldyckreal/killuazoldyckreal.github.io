@@ -1,0 +1,20 @@
+#discordbutton1,
+#discordbutton2 {
+  background-color: rgba(51, 51, 51, 51);
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 40px;
+  cursor: pointer;
+  transition:  background-color 0.2s;
+}
+#button-division {
+  display: flex;
+}
+#discordbutton1:hover,
+#discordbutton2:hover {
+  background-color: rgba(60, 62, 66, 85);
+  transform: scale(1.02);
+}
