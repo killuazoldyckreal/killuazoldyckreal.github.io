@@ -36,7 +36,11 @@
         <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
         <div id="topbar">
             <span id="custom-span">Step into my coding realm.</span>
-            <div id="button-division"><button id="discordbutton1">DISCORD</button>
+            <div id="button-division">
+				<button id="btn01">About Me</button>
+				<button id="btn02">Projects</button>
+				<button id="btn03">Social Handles</button>
+				<button id="discordbutton1">DISCORD</button>
                 <button id="discordbutton2">GITHUB</button>
             </div>
         </div>
@@ -155,7 +159,37 @@
                         </div>
                     </div>
                 </div>
-            </div>
+				<div class="project">
+                    <div class="tab"></div>
+                    <div class="container">
+                        <div class="header">
+                            <h3>Spotify Downloader</h3>
+                        </div>
+                        <div class="description">
+                            <p>Simple HTML webtsite to download songs from Spotify. Supports songnames & links.</p>
+                        </div>
+                        <div class="footer">
+                            <div class="techs"><span class="plang">HTML</span></div>
+                            <div class="redirects">
+                                <a target="_blank" href="https://github.com/killuazoldyckreal/spotify-downloader">
+                                <span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px none; margin: 0px; padding: 0px; position: relative; max-width: 100%;">
+                                <span style="box-sizing: border-box; display: block; width: initial; height: initial; background: none; opacity: 1; border: 0px none; margin: 0px; padding: 0px; max-width: 100%;">
+                                <img style="display: block; max-width: 100%; width: initial; height: initial; background: none; opacity: 1; border: 0px none; margin: 0px; padding: 0px;" alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2732%27%20height=%2732%27/%3e">
+                                </span>
+                                <img alt="GitHub" src="media/github.svg" decoding="async" data-nimg="intrinsic" class="giticon" srcset="media/github.svg 1x, media/github.svg 2x">
+                                </span>
+                                </a>
+                                <a target="_blank" href="https://github.com/killuazoldyckreal/spotify-downloader">
+                                    <svg class="redirect-icon" stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" color="#f7f7ff" style="color: rgb(247, 247, 255);" height="32" width="32" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			</div>
         </div>
         <div class="section section4">
             <h2>Social Media Handles</h2>
@@ -176,6 +210,24 @@
         <script>
             document.getElementById("discordbutton2").addEventListener("click", function() {
               window.open("https://github.com/killuazoldyckreal", "_blank");
+            });
+            
+        </script>
+        <script>
+            document.getElementById("btn01").addEventListener("click", function() {
+              document.querySelector('.section1').scrollIntoView({ behavior: 'smooth' });
+            });
+            
+        </script>
+        <script>
+            document.getElementById("btn02").addEventListener("click", function() {
+              document.getElementById('other-projects').scrollIntoView({ behavior: 'smooth' });
+            });
+            
+        </script>
+        <script>
+            document.getElementById("btn03").addEventListener("click", function() {
+              document.querySelector('.section4').scrollIntoView({ behavior: 'smooth' });
             });
             
         </script>
