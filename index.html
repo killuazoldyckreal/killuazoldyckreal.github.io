@@ -270,23 +270,35 @@
                     }
                 } else {
                     // If screen width is greater than 480px and buttons are not already present
-                    if (document.querySelectorAll("#button-division button").length === 0) {
-                        // Reassign the buttons
-                        var buttonDivision = document.getElementById("button-division");
-                        var discordButton1 = document.getElementById("discordbutton1");
-                        var btn01 = document.createElement("button");
-                        btn01.id = "btn01";
-                        btn01.textContent = "About Me";
-                        buttonDivision.insertBefore(btn01, discordButton1);
-                        var btn02 = document.createElement("button");
-                        btn02.id = "btn02";
-                        btn02.textContent = "Projects";
-                        buttonDivision.insertBefore(btn02, discordButton1);
-                        var btn03 = document.createElement("button");
-                        btn03.id = "btn03";
-                        btn03.textContent = "Social Handles";
-                        buttonDivision.insertBefore(btn03, discordButton1);
-                    }
+				    var buttonDivision = document.getElementById("button-division");
+				    var discordButton1 = document.getElementById("discordbutton1");
+				    
+				    // Ensure btn01 exists, otherwise create and append it before discordButton1
+				    var btn01 = document.getElementById("btn01");
+				    if (!btn01) {
+				        btn01 = document.createElement("button");
+				        btn01.id = "btn01";
+				        btn01.textContent = "About Me";
+				        buttonDivision.insertBefore(btn01, discordButton1);
+				    }
+				
+				    // Ensure btn02 exists, otherwise create and append it before discordButton1
+				    var btn02 = document.getElementById("btn02");
+				    if (!btn02) {
+				        btn02 = document.createElement("button");
+				        btn02.id = "btn02";
+				        btn02.textContent = "Projects";
+				        btn01.insertAdjacentElement('afterend', btn02);
+				    }
+				
+				    // Ensure btn03 exists, otherwise create and append it before discordButton1
+				    var btn03 = document.getElementById("btn03");
+				    if (!btn03) {
+				        btn03 = document.createElement("button");
+				        btn03.id = "btn03";
+				        btn03.textContent = "Social Handles";
+				        btn02.insertAdjacentElement('afterend', btn03);
+				    }
                 }
             }
             // Initial call to remove buttons based on initial screen width
