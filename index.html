@@ -205,32 +205,84 @@
             document.getElementById("discordbutton1").addEventListener("click", function() {
               window.open("https://discord.com/invite/btFBfhzD4N", "_blank");
             });
-            
         </script>
         <script>
             document.getElementById("discordbutton2").addEventListener("click", function() {
               window.open("https://github.com/killuazoldyckreal", "_blank");
             });
-            
         </script>
         <script>
             document.getElementById("btn01").addEventListener("click", function() {
               document.querySelector('.section1').scrollIntoView({ behavior: 'smooth' });
             });
-            
         </script>
         <script>
             document.getElementById("btn02").addEventListener("click", function() {
               document.getElementById('other-projects').scrollIntoView({ behavior: 'smooth' });
             });
-            
         </script>
         <script>
             document.getElementById("btn03").addEventListener("click", function() {
               document.querySelector('.section4').scrollIntoView({ behavior: 'smooth' });
             });
-            
         </script>
+		<script>
+		    // Function to remove buttons based on screen width
+		    function removeButtons() {
+		        var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+		
+		        // If screen width is less than or equal to 480px
+		        if (screenWidth <= 480) {
+		            var btn01 = document.getElementById("btn01");
+	            	if (btn01) {
+			    		btn01.remove();
+	            	}
+	            	var btn02 = document.getElementById("btn02");
+	           		if (btn02) {
+	                	btn02.remove();
+	            	}
+	            	var btn03 = document.getElementById("btn03");
+	            	if (btn03) {
+	                	btn03.remove();
+		            }
+		        } else {
+		            // If screen width is greater than 480px and buttons are not already present
+		            if (document.querySelectorAll("#button-division button").length === 0) {
+		                // Reassign the buttons
+		                var buttonDivision = document.getElementById("button-division");
+						var discordButton1 = document.getElementById("discordbutton1");
+		
+		                var btn01 = document.createElement("button");
+		                btn01.id = "btn01";
+		                btn01.textContent = "About Me";
+		                buttonDivision.insertBefore(btn01, discordButton1);
+		
+		                var btn02 = document.createElement("button");
+		                btn02.id = "btn02";
+		                btn02.textContent = "Projects";
+		                buttonDivision.insertBefore(btn02, discordButton1);
+		
+		                var btn03 = document.createElement("button");
+		                btn03.id = "btn03";
+		                btn03.textContent = "Social Handles";
+		                buttonDivision.insertBefore(btn03, discordButton1);
+		            }
+		        }
+		    }
+		
+		    // Initial call to remove buttons based on initial screen width
+		    removeButtons();
+		
+		    // Listen for resize event to handle changes in screen width
+		    window.addEventListener('resize', function(event) {
+		        // Call removeButtons function when the window is resized
+		        removeButtons();
+		    });
+			window.addEventListener('DOMContentLoaded', function(event) {
+            removeButtons();
+			});
+		</script>
+
         <link rel="stylesheet" href="css/background.css">
         <link rel="stylesheet" href="css/body.css">
         <link rel="stylesheet" href="css/buttons.css">
