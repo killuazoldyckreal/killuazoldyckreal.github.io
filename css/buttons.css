@@ -3,10 +3,10 @@
   background-color: rgba(51, 51, 51, 51);
   color: #ffffff;
   font-size: 15px;
-  padding: 10px 15px;
+  padding: 10px 25px;
   border: none;
   border-radius: 8px;
-  margin-right: 40px;
+  margin-right: 30px;
   cursor: pointer;
   transition:  background-color 0.2s;
 }
@@ -17,4 +17,15 @@
 #discordbutton2:hover {
   background-color: rgba(60, 62, 66, 85);
   transform: scale(1.02);
+}
+
+#btn01, #btn02, #btn03 {
+  margin-right: 30px;
+  cursor: pointer;
+  padding: 5px 15px;
+  font-size: 18px;
+  background-color: rgba(51, 51, 51, 0);
+  color: white;
+  border: none;
+  font-family: "lato", sans-serif;
 }
